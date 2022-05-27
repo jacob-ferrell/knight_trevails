@@ -1,6 +1,6 @@
 class Node
   attr_accessor :coord, :children
-  initialize(coord)
+  def initialize(coord)
     @coord = coord
     @children = []
   end
